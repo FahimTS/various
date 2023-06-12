@@ -1,0 +1,113 @@
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  .top-header-bar { padding: 5px 33px; }
+  .home-info { padding-left: 35px; }
+  .home-info h1 { font-size: 70px; }
+  .dance-box {width: 280px;}
+  .footer-inner { display: grid; grid-template-columns: repeat(2, 1fr); text-align: center; }
+  .price-inner { padding: 0px 20px; gap: 50px; width: 80%; margin: auto; }
+  .amazing-img-two{order: 1;}
+  .amazing-box-two{order: 2;}
+  .statics-inner { padding: 0px 27px; }
+  .footer-musicolcgy {margin-bottom: 0px !important;margin: 100px auto;}
+  ul#social-media { display: flex !important; justify-content: center !important; }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 610px) {
+  .header-menu ul { text-align: center; display: block; }
+  .header-menu {position: absolute;top: 57px;z-index: 1;width: 100%;background: rgba(0, 0, 0, 0.73);padding: 23px;display: none;transform: scaleX(1.13);transition: all 0.5s ease 0s;}
+  .header-menu ul li { margin-bottom: 21px; }
+  .header-search { display: none; }
+  i.menu-toggle-btn.fa-solid.fa-bars { color: rgb(255, 255, 255); font-size: 24px; display: block; }
+  .header-menu.active {display: block;width: 83%;}
+  .home-info h1 { font-size: 56px; }
+  .home-info p { font-size: 14px; width: 300px; }
+  .section-title h2 { font-size: 35px; }
+  .section-title p { font-size: 14px; width: 360px; line-height: 17px; }
+  .dance-inner { display: grid; }
+  .dance-box { width: 335px; margin-bottom: 10px; }
+  .price-inner { display: grid; }
+  .price-box { width: 300px; }
+  .price-plan {width: 100%;}
+  .amazing-inner-one { display: grid; }
+  .amazing-img-one{
+    width: 389px;
+  }
+  .amazing-img-two{
+    width: 389px;
+  }
+  .amazing-box-one { padding: 10px 59px; text-align: center;}
+  .amazing-box-one h1, .amazing-box-two h1 { font-size: 35px; }
+  .amazing-box-one p, .amazing-box-two p { font-size: 15px; margin-bottom: 25px; }
+  .amazing-inner-two { display: grid; }
+  .amazing-box-two { padding: 10px 59px; text-align: center; order: 2;}
+  .amazing-img-two{order: 1;}
+  .section-title-d h2 { font-size: 35px; }
+  .section-title-d p { font-size: 15px; width: 360px; }
+  .statics-inner { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0px; }
+  .herbert {width: 356px;}
+  .herbert::before{
+    width: 357px;
+  }
+  .herbert-info {width: 368px;}
+  .herbert-info p { font-size: 17px; }
+  .herbert-info h2 { font-size: 30px; }
+  .subscribe-inner h1 { font-size: 41px; }
+  .subscribe-inner p {width: 361px;font-size: 15px;}
+  .subscribe-input { width: 100%; }
+  .subscribe-input input { width: 90%; }
+  .footer-inner { display: grid; grid-template-columns: repeat(1, 1fr); 
+}
+.header-menu input {
+  padding: 9px;
+  margin-top: 20px;
+  width: 180px;
+  border-radius: 50px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+
+}
+@media only screen and (min-width: 610px) and (max-width: 810px) {
+  .header-menu ul { text-align: center; display: block; }
+  .header-menu {position: absolute;top: 57px;z-index: 1;width: 100%;background: rgba(0, 0, 0, 0.73);padding: 23px;display: none;transform: scaleX(1);transform-origin: right center;transition: all 0.5s ease 0s;}
+  .header-menu ul li { margin-bottom: 21px; }
+  .header-search { display: none; }
+  i.menu-toggle-btn.fa-solid.fa-bars { color: rgb(255, 255, 255); font-size: 24px; display: block; }
+  .header-menu.active {display: block;width: 90%;}
+  .home-info h1 { font-size: 56px; }
+  .home-info p { font-size: 14px; width: 300px; }
+  .section-title h2 { font-size: 35px; }
+  .section-title p { font-size: 14px; width: 360px; line-height: 17px; }
+  .dance-box {max-width: 335px;margin-bottom: 10px;}
+  .price-inner { display: grid; grid-template-columns: repeat(2, 1fr); }
+  .price-box {max-width: 100%;}
+  .amazing-inner-one { display: grid; }
+  .amazing-box-one { padding: 10px 59px; text-align: center; }
+  .amazing-box-one h1, .amazing-box-two h1 { font-size: 35px; }
+  .amazing-box-one p, .amazing-box-two p { font-size: 15px; margin-bottom: 25px; }
+  .amazing-inner-two { display: grid; }
+  .amazing-box-two { padding: 10px 59px; text-align: center; }
+  .section-title-d h2 { font-size: 35px; }
+  .section-title-d p { font-size: 15px; width: 360px; }
+  .herbert {width: 86%;overflow: hidden;}
+  .herbert-info { width: 424px; }
+  .herbert-info p { font-size: 17px; }
+  .herbert-info h2 { font-size: 30px; }
+  .subscribe-inner h1 { font-size: 41px; }
+  .subscribe-inner p { width: 385px; font-size: 15px; }
+  .subscribe-input { width: 100%; }
+  .subscribe-input input { width: 100%; }
+  .footer-inner { display: grid; grid-template-columns: repeat(2, 1fr); width: 90%; margin: auto; }
+  .header-menu input {
+    padding: 9px;
+    margin-top: 20px;
+    width: 180px;
+    border-radius: 50px;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+
+}
